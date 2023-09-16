@@ -1,0 +1,31 @@
+GEM
+  remote: https://rubygems.org/
+  specs:
+    bigdecimal (3.1.4)
+    nio4r (2.5.9)
+    pg (1.5.4)
+    puma (6.3.1)
+      nio4r (~> 2.0)
+    rack (3.0.8)
+    rackup (2.1.0)
+      rack (>= 3)
+      webrick (~> 1.8)
+    roda (3.72.0)
+      rack
+    sequel (5.72.0)
+      bigdecimal
+    webrick (1.8.1)
+
+PLATFORMS
+  x86_64-linux
+
+DEPENDENCIES
+  pg (~> 1.5)
+  puma (~> 6.3)
+  rack (~> 3.0)
+  rackup (~> 2.1)
+  roda (~> 3.72)
+  sequel (~> 5.72)
+
+BUNDLED WITH
+   2.4.10
